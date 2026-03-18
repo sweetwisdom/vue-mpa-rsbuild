@@ -3,7 +3,7 @@
 
 ## 项目概述
 
-这是一个基于 Rsbuild 的 Vue 多页面应用(MPA)项目。使用 TypeScript 和 pnpm 作为包管理器。
+这是一个基于 Rsbuild 的 Vue 多页面应用(MPA)项目。使用 TypeScript 和 pnpm 作为包管理器,ucide-vue-next作为图标库。
 
 ## 核心架构
 
@@ -84,9 +84,10 @@ Preview the production build locally:
 pnpm preview
 ```
 
-## Learn more
 
-To learn more about Rsbuild, check out the following resources:
 
-- [Rsbuild documentation](https://rsbuild.rs) - explore Rsbuild features and APIs.
-- [Rsbuild GitHub repository](https://github.com/web-infra-dev/rsbuild) - your feedback and contributions are welcome!
+
+## Tailwind CSS
+
+- 支持 `tailwindcss`，版本：3.4.19 ，已接入 PostCSS。
+- 引入方式：在 `src/style/common.css` ,在index.ts/js 引入`import "@/style/common.css"`
