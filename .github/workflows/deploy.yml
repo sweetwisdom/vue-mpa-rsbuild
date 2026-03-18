@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # 当推送到main分支时触发
+      - master  # 当推送到main分支时触发
 
 # 设置权限以允许部署到GitHub Pages
 permissions:
