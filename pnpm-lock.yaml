@@ -239,7 +239,7 @@ packages:
   '@vue/compiler-ssr@3.5.22':
     resolution: {integrity: sha512-GdgyLvg4R+7T8Nk2Mlighx7XGxq/fJf9jaVofc3IL0EPesTE86cP/8DD1lT3h1JeZr2ySBvyqKQJgbS54IX1Ww==}
 
-  '@vue/reactivity@3.5.22':
+  '@vue/vueivity@3.5.22':
     resolution: {integrity: sha512-f2Wux4v/Z2pqc9+4SmgZC1p73Z53fyD90NFWXiX9AKVnVBEvLFOWCEgJD3GdGnlxPZt01PSlfmLqbLYzY/Fw4A==}
 
   '@vue/runtime-core@3.5.22':
@@ -1215,18 +1215,18 @@ snapshots:
       '@vue/compiler-dom': 3.5.22
       '@vue/shared': 3.5.22
 
-  '@vue/reactivity@3.5.22':
+  '@vue/vueivity@3.5.22':
     dependencies:
       '@vue/shared': 3.5.22
 
   '@vue/runtime-core@3.5.22':
     dependencies:
-      '@vue/reactivity': 3.5.22
+      '@vue/vueivity': 3.5.22
       '@vue/shared': 3.5.22
 
   '@vue/runtime-dom@3.5.22':
     dependencies:
-      '@vue/reactivity': 3.5.22
+      '@vue/vueivity': 3.5.22
       '@vue/runtime-core': 3.5.22
       '@vue/shared': 3.5.22
       csstype: 3.1.3
